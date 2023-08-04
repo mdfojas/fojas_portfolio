@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react'
 import {motion} from 'framer-motion'
 import {fadeIn} from '../variants'
 
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg'
-import installNode from '../assets/portfolio/installNode.jpg'
-import navbar from '../assets/portfolio/navbar.jpg'
+import pluma from '../assets/portfolio/pluma.png'
+import asteroid from '../assets/portfolio/asteroid.png'
+import fsl from '../assets/portfolio/navbar.fsl_detector.png'
 
 const Portfolio = () => {
   const [isSmScreen, setIsSmScreen] = useState(false);
@@ -32,20 +32,20 @@ const Portfolio = () => {
     {
         id: 1,
         title: 'Filipino Sign Language Detector',
-        src: arrayDestruct,
-        code: "https://github.com/mdfojas",
+        src: fsl,
+        code: "https://github.com/mdfojas/fsl_detector",
     },
     {
         id: 2,
         title: 'Pluma: An Online Library',
-        src: installNode,
-        code: "https://github.com/mdfojas",
+        src: pluma,
+        code: "https://github.com/KevinGines1/cs128-pluma",
     },
     {
         id: 3,
         title: 'Asteroid Game',
-        src: navbar,
-        code: "https://github.com/mdfojas",
+        src: asteroid,
+        code: "https://github.com/mdfojas/AsteroidGame",
     },
   ]
 
