@@ -28,7 +28,7 @@ const About = () => {
   return (
     <div 
         name='about'
-        className='bg-gradient-to-b from-gray-500 to-black to-white w-full h-screen border border-green-500 ' 
+        className='bg-gradient-to-b from-gray-500 to-black to-white w-full h-screen ' 
     >
         <div className='mx-auto '>
             <div 
