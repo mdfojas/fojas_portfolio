@@ -4,7 +4,7 @@ import {fadeIn} from '../variants'
 
 import pluma from '../assets/portfolio/pluma.png'
 import asteroid from '../assets/portfolio/asteroid.png'
-import fsl from '../assets/portfolio/navbar.fsl_detector.png'
+import fsl from '../assets/portfolio/fslDetector.png'
 
 const Portfolio = () => {
   const [isSmScreen, setIsSmScreen] = useState(false);
