@@ -50,12 +50,13 @@ const NavBar = () => {
                 <ul className='flex flex-col justify-center 
                 items-center absolute top-0 left-0 w-full h-screen
                 bg-gradient-to-b from-black to-gray-800'>
-                    {links.map(({id, link}) => (
+                    {links.map(({id, link, title}) => (
                         <li
                         key={id} className="cursor-pointer capitalize py-6 text-4xl">
                             <NavLinks
                             key={id}
                             link={link}
+                            title={title}
                             update={true}
                             nav = {nav}
                             setNav= {setNav}
